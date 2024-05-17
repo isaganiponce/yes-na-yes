@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Stencilia";
+    src: url("Stencilia-A.ttf");
+}
+
+@font-face {
+    font-family: "Stencilia Bold";
+    src: url("Stencilia-Bold.ttf");
+}
+
+
+.container{
+    padding: 5px 0px 0px 5px;
+}
+
+nav{
+    display:flex;
+    border: solid black;
+    margin:-13px;
+    background-color: #1F1D1C;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 12px;
+}
+
+nav ul li{
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    position: relative;
+    background-color: transparent;
+    font-family: "Stencilia";
+}
+
+nav h1{
+    color: #B0312F;
+    padding-left: 50px;
+    padding-right: 380px;
+    padding-top:10px;
+    margin-top: 12px;
+    background-color: transparent;
+    font-family: "Stencilia";
+    font-size: 30px;
+}
+
+.redbg{
+    width: 101%;
+    margin-left: -8px;
+    margin-top:-10px;
+}
+
+.pictures{
+    border-radius: 10px;;
+}
+.promo{
+    width: 101%;
+    margin-left: -8px;
+}
+
+.menu-cont{
+    background-image: url("images/YES\ EFREN’S\ SPECIAL\ BBQ1.png");
+    width:101%;
+    margin-top:-40px;
+    margin-left: -8px;
+}
+
+.products-row1{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    margin-bottom: 50px;
+}
+
+.products-row1 div{
+    padding: 5px 5px 5px 5px;
+    background-color: #1F1D1C;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.products-row2 div{
+    padding: 5px 5px 5px 5px;
+    background-color: #1F1D1C;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.menu-cont h1{
+    font-family: "Stencilia";
+    color: white;
+    padding-left:50px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.product-row2{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.myPop{
+    visibility: hidden;
+}
